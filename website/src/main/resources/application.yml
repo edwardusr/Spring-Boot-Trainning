@@ -1,0 +1,19 @@
+
+datasources:
+
+
+# DATA_PROD DB
+ dataprod:
+  jdbcUrl: jdbc:sqlserver://GIWFHPF2FSHYX;databaseName=DATA_PROD
+  username: sa
+  password: 123456
+  driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  maximumPoolSize: 3
+  
+  # DATA_WEB DB
+ dataweb:
+  jdbcUrl: jdbc:sqlserver://GIWFHPF2FSHYX;databaseName=DATA_WEB
+  username: sa
+  password: 123456
+  driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  maximumPoolSize: 3
